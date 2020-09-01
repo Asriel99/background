@@ -1,6 +1,6 @@
-# backgroundflutter_example
+# background_example
 
-Demonstrates how to use the backgroundflutter plugin.
+Demonstrates how to use the background plugin.
 
 ## Getting Started
 

@@ -1,9 +1,9 @@
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:backgroundflutter/backgroundflutter.dart';
+import 'package:background/background.dart';
 
 void main() {
-  const MethodChannel channel = MethodChannel('backgroundflutter');
+  const MethodChannel channel = MethodChannel('background');
 
   TestWidgetsFlutterBinding.ensureInitialized();
 
@@ -18,6 +18,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    expect(await Backgroundflutter.platformVersion, '42');
+    expect(await Background.platformVersion, '42');
   });
 }
